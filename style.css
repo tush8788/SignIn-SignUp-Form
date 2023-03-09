@@ -1,0 +1,90 @@
+/* univercel */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body{
+    font-family: sans-serif;
+}
+/* main container */
+.container{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+/* form-container */
+.form-container{
+    width: 50%;
+    height: 80%;
+    background-color: #03052a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    color: #FAFAFB;
+    box-shadow: 3px 10px 3px 3px gray;
+}
+/* heading */
+.heading{
+    text-align: center;
+}
+.form{
+    margin-top: 30px;
+    width: 40%;
+    height: 40%;
+    /* background-color: red; */
+}
+
+.form input{
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #14163E;
+    color: #FAFAFB;
+}
+.email-container{
+    margin-top: 20px;
+}
+.password-container{
+    margin-top: 20px;
+}
+/* submit btn */
+.form input[type=submit]{
+    margin-top: 10px;
+    font-weight: 700;
+    color: #FAFAFB;
+    background-color: red;
+    border: none;
+
+}
+.siginup-name{
+    background-color: #14163E;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 15%;
+   border-radius: 0px 0px 10px 10px;
+   /* padding-top: 10px; */
+   color: #AEB0BF;
+   
+}
+
+.siginup-name a{
+    width: 20%;
+    font-size: 12px;
+    text-align: center;
+    color: #FAFAFB;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: red;
+    font-weight: 600;
+}
